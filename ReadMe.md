@@ -1,12 +1,12 @@
-# ARCHIVE - CS 2: Tweet Generator: Text Processing & Probability
+# Tweet Generator: Text Processing & Probability
 
-## NOTE: This repo is no longer maintained
+## A slick Twitter Bot with some personality
 
-## Course Schedule
+## "I'm a twitter bot and I like to tweet"
 
-**Course Dates:** Monday, October 23 – Friday, December 8, 2017 (6 weeks)
+**Updatess:** I would consider this Readme.md file already part of my repo so figured I would simply modify it for now.
 
-**Class Times:** Tuesday & Thursday 2-4pm or 4–6pm (12 class sessions)
+**Currently:** There's nothing much to see here but eventually this will be full of information about the project. 
 
 
 | Class |         Date          |                  Topics                  |
@@ -25,6 +25,6 @@
 |  12   | Thursday, December 7  | Parsing & Tokenization     |
 
 
-## Repository Setup Instructions
+## Setup Instructions
 
-Please follow [these instructions](Setup.md) exactly to set up your fork of this repository.
+If you wanted to run this on your own machine, the instructions would go here: (But right now that's not really an option, sorry mate.)
