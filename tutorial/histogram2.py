@@ -1,9 +1,9 @@
 
 
 def histogram(choosen_text):
-  f = open(choosen_text, 'r')
-  text = f.read()
-  f.close()
+  file = open(choosen_text, 'r')
+  text = file.read()
+  file.close()
   text = text.lower()
   punct = '''"\.?@#$%^&*_~='',!()-[]{\}\;:<>"'''
 
@@ -12,7 +12,7 @@ def histogram(choosen_text):
       text = text.replace(chars, '')
 
   split_words = text.split()
-  print(split_words)
+  # print(split_words)
 
   histogram = []
 
@@ -41,9 +41,9 @@ def frequency(histogram, word):
       return tuple[1]
 
 if __name__ == '__main__':
-  print_historgram = histogram("testsampletext.txt")
+  print_historgram = histogram("danger.txt")
   print(print_historgram)
   length_historgram = unique_words(print_historgram)
   print(length_historgram)
-  word_historgram = frequency(print_historgram, 'FisH')
+  word_historgram = frequency(print_historgram, 'ship')
   print(word_historgram)
